@@ -1,0 +1,142 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #6F4F28; /* Brown color */
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #9E7B5F; /* Light brown */
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #6F4F28; /* Darker brown for hover effect */
+}
+
+/* Main Section Styles */
+section {
+    background-color: white;
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #6F4F28;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+section h3 {
+    color: #555;
+    font-size: 2.2em;
+    margin-top: 25px;
+    border-bottom: 3px solid #9E7B5F;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Image Container */
+.image-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #6F4F28; /* Matching brown */
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 1.1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 2.8em;
+    }
+
+    nav a {
+        padding: 12px 25px;
+    }
+
+    section h2 {
+        font-size: 2em;
+    }
+
+    section h3 {
+        font-size: 1.8em;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+}
